@@ -1,0 +1,29 @@
+{
+    "schemaVersion":  1,
+    "website":  "https://nilo.biz.id",
+    "publishedAt":  "2026-10-28",
+    "title":  "Notch adaptif dan NILO Dock",
+    "notes":  [
+                  "Navigasi enam modul kini tetap pada posisi yang sama. Pergantian tab memakai transisi konten singkat tanpa mengubah ukuran panel utama.",
+                  "Notch dapat menyimpan diri ke tepi atas saat aplikasi lain aktif. Arahkan kursor ke tengah tepi atas untuk memunculkannya; pin dan aturan fullscreen tetap dihormati.",
+                  "Mode adaptif aktif secara bawaan dan tidak mencadangkan strip layar permanen. Mode reservasi Windows sebelumnya tetap tersedia saat mode adaptif dimatikan.",
+                  "NILO Dock opsional tersedia melalui Settings → Desktop: pencarian aplikasi Windows, sematan yang bisa diurutkan, jendela berjalan, aktivasi dan minimalkan.",
+                  "Dock menyediakan jam, kalender, status jaringan dan daya, status Bluetooth bila tersedia, serta volume dan pintasan pengaturan Windows. Taskbar Windows tetap tersedia.",
+                  "Pengaturan baru mempertahankan data lama. Penanganan pembatalan animasi, reduced motion, tutup aplikasi dan perubahan layar diperbaiki.",
+                  "Detail rilis, unduhan EXE dengan runtime bawaan dan pemasangan update tetap memakai https://nilo.biz.id."
+              ],
+    "version":  "1.4.0",
+    "filename":  "NILO-Setup-1.4.0-win-x64.exe",
+    "bytes":  77014528,
+    "sha256":  "14ba64b6a9e8010ba9b41ed9cf87cd19dd71eb730f6356072130d445dc47e573",
+    "platform":  "Windows 10 1809+ / Windows 11",
+    "architecture":  "x64",
+    "runtime":  ".NET 8.0.27 Desktop (bundled, private)",
+    "selfContained":  true,
+    "signed":  false,
+    "packageType":  "installer",
+    "installedBytes":  194040657,
+    "license":  "MIT",
+    "developer":  "Kographh By Fizzxverss",
+    "email":  "fizzxverss@luujaaa.my.id"
+}

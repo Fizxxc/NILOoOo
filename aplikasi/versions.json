@@ -1,0 +1,53 @@
+[
+  {
+    "version": "1.4.0",
+    "publishedAt": "2026-10-28",
+    "title": "Notch adaptif dan NILO Dock",
+    "notes": [
+      "Navigasi enam modul kini tetap pada posisi yang sama. Pergantian tab memakai transisi konten singkat tanpa mengubah ukuran panel utama.",
+      "Notch dapat menyimpan diri ke tepi atas saat aplikasi lain aktif. Arahkan kursor ke tengah tepi atas untuk memunculkannya; pin dan aturan fullscreen tetap dihormati.",
+      "Mode adaptif aktif secara bawaan dan tidak mencadangkan strip layar permanen. Mode reservasi Windows sebelumnya tetap tersedia saat mode adaptif dimatikan.",
+      "NILO Dock opsional tersedia melalui Settings → Desktop: pencarian aplikasi Windows, sematan yang bisa diurutkan, jendela berjalan, aktivasi dan minimalkan.",
+      "Dock menyediakan jam, kalender, status jaringan dan daya, status Bluetooth bila tersedia, serta volume dan pintasan pengaturan Windows. Taskbar Windows tetap tersedia.",
+      "Pengaturan baru mempertahankan data lama. Penanganan pembatalan animasi, reduced motion, tutup aplikasi dan perubahan layar diperbaiki.",
+      "Detail rilis, unduhan EXE dengan runtime bawaan dan pemasangan update tetap memakai https://nilo.biz.id."
+    ]
+  },
+  {
+    "version": "1.3.1",
+    "publishedAt": "2026-10-28",
+    "title": "NILO tetap di atas, browser mengikuti ruang Windows",
+    "notes": [
+      "Memperbaiki posisi 1.3.0 yang turun ke area konten browser. Island kini selalu menempel di tepi atas, tanpa offset browser.",
+      "Mendaftarkan ruang atas setinggi notch melalui Windows AppBar secara default. Browser dan aplikasi yang dimaksimalkan mengikuti work area Windows dengan lebar tetap penuh.",
+      "Menyertakan jendela reservasi transparan dan click-through agar ruang tercatat di shell tanpa menutupi layar atau mengambil fokus.",
+      "Migrasi pengaturan 1.3.0 otomatis mengaktifkan ruang atas dan menghapus pengaturan jarak browser lama. Riwayat air dan preferensi updater dipertahankan.",
+      "Perubahan posisi appbar tidak didaftarkan berulang jika batasnya sama; pendaftaran diulang setelah Explorer kembali tersedia.",
+      "Pemeriksaan, unduhan dan pemasangan update dari aplikasi tetap tersedia melalui https://nilo.biz.id."
+    ]
+  },
+  {
+    "version": "1.3.0",
+    "publishedAt": "2026-10-28",
+    "title": "Jendela penuh dan pembaruan dari aplikasi",
+    "notes": [
+      "Mode standar tidak lagi mencadangkan strip layar: jendela lain tetap dapat dimaksimalkan penuh.",
+      "Saat browser yang dikenal dimaksimalkan pada layar NILO, island tetap di tengah dan turun melewati area tab. Jarak aman dapat diatur dari tray.",
+      "Island yang turun tampil sebagai panel dengan sudut atas membulat. Mode ruang layar lama tetap tersedia sebagai pilihan.",
+      "Menu Pembaruan NILO menampilkan versi terpasang, versi terbaru, catatan perubahan dan ukuran installer dari https://nilo.biz.id.",
+      "Pemeriksaan versi otomatis berjalan setelah startup dan setiap enam jam; dapat dinonaktifkan di Settings.",
+      "Installer dapat diunduh dari aplikasi. Ukuran, SHA-256, arsitektur dan metadata versi/pengembang diverifikasi sebelum pemasangan.",
+      "Pada instalasi standar, Pasang & mulai ulang menutup NILO secara normal, menunggu proses lama selesai, memasang pembaruan dan membuka NILO kembali.",
+      "Web dan aplikasi memakai informasi rilis yang sama. Installer masih disertai runtime privat dan lisensi MIT."
+    ]
+  },
+  {
+    "version": "1.2.2",
+    "publishedAt": "2026-10-28",
+    "title": "Installer EXE dan detail produk",
+    "notes": [
+      "Installer Windows x64 dengan runtime .NET Desktop privat.",
+      "Galeri aplikasi asli, spesifikasi rilis dan lisensi MIT lengkap pada web."
+    ]
+  }
+]

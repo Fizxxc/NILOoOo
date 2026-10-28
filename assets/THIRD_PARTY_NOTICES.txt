@@ -1,0 +1,43 @@
+# Attribution and network services
+
+NILO development and visual identity: Kographh By Fizzxverss.
+Contact: fizzxverss@luujaaa.my.id. The teal fox artwork was supplied with this project.
+
+NILO is a derivative of NusaLite by Pidzzzz. Copyright (c) 2026 Pidzzzz.
+The original MIT License is retained verbatim in LICENSE and accompanies builds.
+The redesign does not change that license or remove the original attribution.
+
+Windows, .NET, WPF and the Windows SDK are Microsoft technologies, subject to
+their respective licenses. The EXE installer includes a private, unmodified
+.NET Runtime and Windows Desktop Runtime 8.0.27 x64 copied from the installed
+Microsoft distribution. Its LICENSE.txt and ThirdPartyNotices.txt are retained
+under runtime/. It does not register or replace the system-wide .NET runtime.
+NILO changes and website code: see LICENSE-NILO.txt (MIT).
+
+No Nusa proprietary artwork or animation implementation
+is included in the distributed website or application. The supplied Nusa website
+archive is extracted under WEB/reference for local study only and excluded from
+the website distribution. Path geometry icons are drawn in source.
+
+Existing optional network behavior is preserved:
+
+- NILO updates (https://nilo.biz.id/aplikasi/release.json): automatic checks after
+  startup and every six hours when enabled; manual checks and installer download
+  from the same origin. Requests include a NILO-Updater user-agent. Settings,
+  Shelf contents, song metadata and browser tabs are not sent for update checks.
+  Downloads are verified against release size, SHA-256 and file metadata. These
+  integrity checks do not represent an Authenticode signature; installers are
+  still unsigned. Installation begins only after the user's explicit action.
+
+- LRCLIB (https://lrclib.net): song title, artist, album and duration are sent to
+  retrieve synchronized lyrics.
+- Deezer (https://developers.deezer.com): title/artist searches for fallback artwork.
+- iTunes Search API (https://performance-partners.apple.com/search-api): fallback
+  title/artist searches and artwork URLs.
+- Artwork is owned by its respective rights holders and displayed as media
+  metadata. These services are not affiliated with or endorsing NILO.
+
+The application has no analytics/account service. Turning off media notifications
+does not disable metadata lookups. Media controls depend on the source application's
+Windows media session support. File shelf entries reference existing local paths;
+removing an entry never deletes the original file.
