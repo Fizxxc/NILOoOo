@@ -7,3 +7,17 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 .updates-layout{display:grid;grid-template-columns:1.4fr 1fr;gap:80px;border-top:1px solid var(--line);padding-top:25px}.updates-layout time{font-size:10px;color:#8da696}.updates-layout h3{margin:10px 0 20px;font-size:20px}.updates-layout ul{margin:0 0 24px;padding-left:18px;color:#a9beb0}.updates-layout li{font-size:12px;line-height:1.9;margin-bottom:10px}.updates-layout a{font-size:12px;color:var(--accent)}.updates-layout aside{border-left:1px solid var(--line);padding-left:30px}.updates-layout aside h3{font-size:19px}.updates-layout aside p{font-size:12px;line-height:1.9;margin-bottom:15px}.version-entry{border-top:1px solid var(--line);margin-top:40px;padding-top:22px}.version-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px}.version-heading h2{margin:0 0 12px}.version-heading time{font-size:11px;color:#8da696}.version-entry h3{font-size:17px;margin-bottom:18px}.version-entry li{margin-bottom:9px}.footer-bottom nav{flex-wrap:wrap}@media(max-width:760px){.updates-layout{gap:35px;grid-template-columns:1fr 1fr}}@media(max-width:540px){.updates-layout{grid-template-columns:1fr;gap:25px}.updates-layout aside{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}.site-header nav a:nth-child(2),.site-header nav a[href="lisensi.html"]{display:none}.footer-bottom nav{gap:12px 18px}.updates-layout h3{font-size:19px}}
+
+/* A single playback of the supplied logo. CSS is a fail-open fallback if JS fails. */
+.site-intro{position:fixed;inset:0;z-index:100;display:grid;place-content:center;justify-items:center;background:#090b0c;color:#f3f4f2;animation:nilo-intro-exit .2s ease 2.6s forwards}
+.site-intro[hidden]{display:none}
+.intro-signature{display:flex;flex-direction:column;align-items:center;text-align:center}
+.intro-signature picture,.intro-signature img{display:block;width:168px;height:168px;object-fit:contain}
+.intro-name{font-size:22px;font-weight:600;letter-spacing:.08em;margin-top:10px}
+.intro-tagline{color:#92999a;font-size:12px;letter-spacing:.015em;margin-top:7px}
+.intro-skip{min-height:44px;min-width:160px;margin-top:32px;padding:10px 14px;border:0;background:transparent;color:#92999a;font:inherit;font-size:11px;cursor:pointer}
+.intro-skip:hover,.intro-skip:focus-visible{color:#f3f4f2}
+.intro-skip:focus-visible{outline:1px solid #a9c7bc;outline-offset:3px;border-radius:6px}
+@keyframes nilo-intro-exit{to{opacity:0;visibility:hidden;pointer-events:none}}
+@media(prefers-reduced-motion:reduce){.site-intro{display:none;animation:none}}
+@media(max-width:480px){.intro-signature picture,.intro-signature img{width:144px;height:144px}.intro-name{font-size:21px}}

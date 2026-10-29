@@ -11,3 +11,30 @@
 
 /aplikasi/release.json
   Cache-Control: no-store
+
+/
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/pembaruan.html
+  Cache-Control: no-cache
+
+/aplikasi/download-verification.json
+  Cache-Control: no-store
+
+/app.js
+  Cache-Control: no-cache
+
+/release-download.js
+  Cache-Control: no-cache
+
+/updates.js
+  Cache-Control: no-cache
+
+/intro.js
+  Cache-Control: no-cache
+
+/logo-anim/*.webp
+  Content-Type: image/webp

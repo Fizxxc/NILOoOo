@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.4.1",
+    "publishedAt": "2026-10-29",
+    "title": "Logo animasi dan pembuka transparan",
+    "notes": [
+      "Pembuka aplikasi memakai animasi logo asli: 42 frame selama 2,4 detik, dengan NILO dan tagline di bawah logo.",
+      "Latar pembuka aplikasi transparan dan tidak lagi menampilkan kartu gelap. Intro tidak mengambil fokus atau menghalangi klik desktop.",
+      "Setelah logo selesai, notch muncul halus di tepi atas. Pembatalan intro, reduced motion, fullscreen dan Quit tetap ditangani.",
+      "Website memakai logo animasi yang sama, intro yang bisa dilewati, dan gambar diam saat reduced motion aktif.",
+      "Pemeriksaan unduhan bersama, dukungan endpoint binary eksplisit dan penanganan Range tetap dipertahankan."
+    ]
+  },
+  {
     "version": "1.4.0",
     "publishedAt": "2026-10-28",
     "title": "Notch adaptif dan NILO Dock",
