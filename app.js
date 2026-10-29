@@ -7,7 +7,7 @@ const gallery = {
   player: ["Pemutar musik NILO", "Kontrol musik dari notch.", "Jeda, lanjut, dan pindah lagu tanpa berpindah jendela. Tangkapan ini memperlihatkan keadaan kosong saat tidak ada sesi media aktif."],
   lyrics: ["Lirik NILO", "Lirik mengikuti lagu.", "Lirik tersinkron diambil dari LRCLIB ketika tersedia. Isi dan sinkronisasi bergantung pada metadata lagu serta data penyedia."],
   focus: ["Timer fokus NILO", "Sesi fokus, langsung terlihat.", "Jalankan Pomodoro dari panel fokus. Sisa waktu dapat dilihat kembali melalui ringkasan NILO."],
-  water: ["Catatan air NILO", "Catat air minum harian.", "Tentukan target, tambahkan jumlah air yang diminum, dan atur pengingat. Data disimpan lokal di komputer."],
+  water: ["Catatan air NILO", "Catat air minum harian.", "Sapaan harian dan pengingat 45 menit. Konfirmasi +250 ml setelah minum, atau tunda 10 menit. Data disimpan lokal di komputer."],
   shelf: ["File Shelf NILO", "Tempat sementara untuk file.", "Seret file atau folder ke notch. Buka atau tarik keluar saat dibutuhkan. Penghapusan item Shelf tidak menghapus file asli."]
 };
 const tabs = [...document.querySelectorAll('[role="tab"]')];

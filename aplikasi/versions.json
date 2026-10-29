@@ -1,5 +1,20 @@
 [
   {
+    "version": "1.5.0",
+    "publishedAt": "2026-10-29",
+    "title": "Dock terpadu, kapsul dan pengingat harian",
+    "notes": [
+      "Peluncur aplikasi kini berupa kisi ikon di dalam Dock yang sama, dengan pencarian, sematan dan aplikasi terakhir yang benar-benar dibuka melalui NILO.",
+      "Kalender, volume, pengaturan cepat, sistem dan menu daya menyatu dengan Dock. Shutdown, restart, keluar akun, tidur, hibernasi dan kunci memakai konfirmasi terpisah.",
+      "NILO Dock diaktifkan pada pembaruan ini. Taskbar Windows memakai auto-hide sementara, dipulihkan saat Dock dimatikan atau NILO ditutup, tanpa menghentikan Explorer.",
+      "Hover hanya membuka kapsul ringkas yang menempel di tepi atas. Klik membuka modul; navbar kembali terpisah di bawah dengan posisi stabil saat berpindah tab.",
+      "CPU, memori fisik dan adaptor jaringan dibaca langsung dari Windows. Cek koneksi menampilkan hasil HTTP situs NILO dan tidak menyamakan kegagalan situs dengan putusnya jaringan lokal.",
+      "Sapaan air muncul sebagai panel sementara, tanpa jendela baru. Tombol Aku sudah minum hari ini mencatat 250 ml satu kali; pengingat berikutnya 45 menit dan tersedia tunda 10 menit.",
+      "Mulai bersama Windows diaktifkan sesuai pilihan pengguna. Riwayat air, sematan dan modul lama dipertahankan; tampilan pengaturan dan pembaruan memakai bingkai serta tombol tutup NILO.",
+      "Animasi logo transparan, reduced motion, updater terverifikasi dan lisensi MIT asli tetap dipertahankan. Integrasi Explorer dan perangkat fisik tetap memerlukan pengujian pada desktop pengguna."
+    ]
+  },
+  {
     "version": "1.4.1",
     "publishedAt": "2026-10-29",
     "title": "Logo animasi dan pembuka transparan",
